@@ -81,11 +81,9 @@
               
               document.querySelector('.js-result').innerHTML = result;
 
-              document.querySelector('.js-moves').innerHTML = `Player: ${playerMove}
-              || Computer: ${compChoice}`;
+              document.querySelector('.js-moves').innerHTML = `Player: <img src="images/${playerMove}-emoji.png" class="move-icon">
+              || Computer: <img src="images/${compChoice}-emoji.png" class="move-icon">`;
 
-            /*alert(`You picked ${userChoice}. Computer picked ${compChoice}. ${result}
-Wins: ${score.wins}. Loses: ${score.loses}. Ties: ${score.tie}`);*/
           }
 
           function updateScore(){
