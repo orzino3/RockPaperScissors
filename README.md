@@ -1,1 +1,1 @@
-I created a simple rock paper scissors game using HTML & javaScript!
+A simple Rock Paper Scissors game using HTML, javaScript and CSS
